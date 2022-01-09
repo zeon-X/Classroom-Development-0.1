@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: rgb( 245,245,245);
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+span{
+    color: rgb( 250,40,125)
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+.logo{
+    color: white;
+    display: flex;
+}
+.logoimg{
+    padding-top: 3px;
+    height: 70px;
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    background-color: rgb( 250,40,125);
+    color: black;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none; color:black;
+}
+
+
+.main{
+    padding: 30px 80px;
+    display: flex;
+    height: 550px;    
+}
+.chapter-list-card{
+    padding: 5px;
+    margin-left: 20px;
+    width: 390px;
+    border-radius: 20px;
+}
+.chapter{
+    margin: 10px;
+    border: solid white ;
+    border-radius: 9px;
+
+}
+.chapter-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.chapter h1{
+    font-size: 20px;
+    color: black;
+}
+.chapter img{
+    width: 35px;
+}
+.minus{
+    display: none;
+}
+
+.video-list{
+    background-color: rgb( 245,245,245) ;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.video-list ul li {
+    padding: 2px;
+}
+.video-list ul li a:hover{
+    color: rgb( 250,40,125);
+}
+
+
+footer{
+    height: 100px;
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+
+
