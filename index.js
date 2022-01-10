@@ -128,15 +128,16 @@ const sectionSOM = document.querySelector(".som-video-list");
 const sectionAP = document.querySelector(".ap-video-list");
 const sectionWAO = document.querySelector(".wao-video-list");
 const sectionPO = document.querySelector(".po-video-list");
+const go = document.querySelector(".video-name");
 
 function SOMvideoplaylist() {
     let displayMenu = sommenu.map(function (item) {
         //console.log(item);
 
-        return `<li><a href="${item.link}">${item.title}</a></li> `;
+        return `<li><button id="${item.id}" class="som-class-video listen">${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
-    console.log(displayMenu);
+    //console.log(displayMenu);
     sectionSOM.innerHTML = displayMenu;
 }
 
@@ -144,10 +145,10 @@ function APvideoplaylist() {
     let displayMenu = apmenu.map(function (item) {
         //console.log(item);
 
-        return `<li><a href="${item.link}">${item.title}</a></li> `;
+        return `<li><button  id="${item.id}" class="ap-class-video  listen">${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
-    console.log(displayMenu);
+    //console.log(displayMenu);
     sectionAP.innerHTML = displayMenu;
 }
 
@@ -155,10 +156,10 @@ function WAOvideoplaylist() {
     let displayMenu = waomenu.map(function (item) {
         //console.log(item);
 
-        return `<li><a href="${item.link}">${item.title}</a></li> `;
+        return `<li><button  id="${item.id}" class="wao-class-video  listen">${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
-    console.log(displayMenu);
+    //console.log(displayMenu);
     sectionWAO.innerHTML = displayMenu;
 }
 
@@ -166,25 +167,49 @@ function POvideoplaylist() {
     let displayMenu = pomenu.map(function (item) {
         //console.log(item);
 
-        return `<li><a href="${item.link}">${item.title}</a></li> `;
+        return `<li><button  id="${item.id}" class="po-class-video  listen">${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
-    console.log(displayMenu);
+    //console.log(displayMenu);
     sectionPO.innerHTML = displayMenu;
 }
 
 
-
-
-
-
-
+//const sectionCenter = document.querySelector(#videosection);
 
 window.addEventListener("DOMContentLoaded", function () {
     SOMvideoplaylist();
     APvideoplaylist();
     WAOvideoplaylist();
     POvideoplaylist();
+
+    const videolink = document.querySelectorAll(".som-class-video");
+    //console.log(videolink);
+    videolink.forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+            let id = parseInt(e.currentTarget.id); id = id - 1; // id = mane koto no element er doc pass lgbe
+            const a = sommenu[id];
+            const objA = Object.entries(a);
+            console.log(objA[1]);
+
+
+            let displayMenu = objA.map(function (item) {
+                return `<h1>${item[1]}</h1>
+                <ul class="nav__links">
+                    <li><button>Previous</button></li>
+                    <li><button>Next</button></li>
+
+                </ul>`;
+            });
+            displayMenu = displayMenu.join("");
+            go.innerHTML = displayMenu;
+
+
+
+
+        });
+    });
+
 });
 
 
@@ -219,5 +244,8 @@ minusbtns.forEach(function (btn) {
         //console.log(ter_ul_list.classList);
     });
 });
+
+
+
 
 

@@ -115,8 +115,14 @@ a{
 .video-list ul li {
     padding: 2px;
 }
-.video-list ul li a:hover{
-    color: rgb( 250,40,125);
+.video-list ul li button{
+    margin: 0;border: 0;
+}
+.video-list ul li button:hover{
+    background-color: rgb( 250,40,125);
+    cursor: pointer;
+    
+    
 }
 
 
