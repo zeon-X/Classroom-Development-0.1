@@ -1,0 +1,48 @@
+const menu = [
+{
+ 	id = 1,
+	title = "Abdul Hadi Sir Class 1",
+	link = "https://youtu.be/FX4XQzeuESw"
+},
+{
+ 	id = 2,
+	title = "Abdul Hadi Sir Class 2",
+	link = "https://youtu.be/tISV-Ebqgy8"
+},
+{
+ 	id = 3,
+	title = "Abdul Hadi Sir Class 3",
+	link = "https://youtu.be/rHO4QjVcAQ4"
+},
+{
+ 	id = 4,
+	title = "Abdul Hadi Sir Class 4",
+	link = "https://youtu.be/GazGpSLRdds"
+},
+{
+ 	id = 5,
+	title = "Abdul Hadi Sir Class 5",
+	link = "https://youtu.be/5zJq70G4RDo"
+},
+{
+ 	id = 6,
+	title = "Abdul Hadi Sir Class 6",
+	link = "https://youtu.be/eVEVbZj7y3I"
+},
+{
+ 	id = 7,
+	title = "Abdul Hadi Sir Class 7",
+	link = "https://youtu.be/kuAldQW1rb8"
+},
+{
+ 	id = 8,
+	title = "Abdul Hadi Sir Class 8",
+	link = "https://youtu.be/gWZwelXK01M"
+},
+{
+ 	id = 9,
+	title = "Abdul Hadi Sir Class 9",
+	link = "https://youtu.be/knrUylRWojI"
+},
+
+]
