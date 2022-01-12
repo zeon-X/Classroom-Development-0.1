@@ -1,211 +1,201 @@
-const pomenu = [
+const dsmenu = [
     {
         id: 1,
-        title: "Abdul Hadi Sir Class 1",
-        link: "https://youtu.be/FX4XQzeuESw",
+        title: "CSE 1201 DS Mondol Sir Class 1",
+        link: "https://www.youtube.com/embed/5eghJHg7NwM",
     },
     {
         id: 2,
-        title: "Abdul Hadi Sir Class 2",
-        link: "https://youtu.be/tISV-Ebqgy8",
+        title: "CSE 1201 DS Mondol Sir Class 2",
+        link: "https://www.youtube.com/embed/UelizuWbFnc",
     },
     {
         id: 3,
-        title: "Abdul Hadi Sir Class 3",
-        link: "https://youtu.be/rHO4QjVcAQ4",
+        title: "CSE 1201 DS Mondol Sir Class 3",
+        link: "https://www.youtube.com/embed/8IISemdH53w",
     },
     {
         id: 4,
-        title: "Abdul Hadi Sir Class 4",
-        link: "https://youtu.be/GazGpSLRdds",
+        title: "CSE 1201 DS Mondol Sir Class 4",
+        link: "https://www.youtube.com/embed/OSqN0LH4KsE",
     },
     {
         id: 5,
-        title: "Abdul Hadi Sir Class 5",
-        link: "https://youtu.be/5zJq70G4RDo",
+        title: "CSE 1201 DS Mondol Sir Class 5",
+        link: "https://www.youtube.com/embed/vOtDqAOTUUo",
     },
     {
         id: 6,
-        title: "Abdul Hadi Sir Class 6",
-        link: "https://youtu.be/eVEVbZj7y3I",
+        title: "CSE 1201 DS Mondol Sir Class 6",
+        link: "https://www.youtube.com/embed/OkSlWjcOp_I",
     },
     {
         id: 7,
-        title: "Abdul Hadi Sir Class 7",
-        link: "https://youtu.be/kuAldQW1rb8",
+        title: "CSE 1201 DS Mondol Sir Class 7",
+        link: "https://www.youtube.com/embed/K_hWn2mOfWc",
     },
     {
         id: 8,
-        title: "Abdul Hadi Sir Class 8",
-        link: "https://youtu.be/gWZwelXK01M",
+        title: "CSE 1201 DS Mondol Sir Class 8",
+        link: "https://www.youtube.com/embed/r_Ezpffj9Dw",
     },
     {
         id: 9,
-        title: "Abdul Hadi Sir Class 9",
-        link: "https://youtu.be/knrUylRWojI",
+        title: "CSE 1201 DS Mondol Sir Class 9",
+        link: "https://www.youtube.com/embed/hVu3UcNwGCc",
     },
     {
         id: 10,
-        title: "Abdul Hadi Sir Class 10",
-        link: "https://youtu.be/rQ062TTeop8",
+        title: "CSE 1201 DS Mondol Sir Class 10",
+        link: "https://www.youtube.com/embed/gnMc7dEPxWA",
+    },
+    {
+        id: 11,
+        title: "CSE 1201 DS Mondol Sir Class 11",
+        link: "https://www.youtube.com/embed/9_AuLbh3BMU",
+    },
+    {
+        id: 12,
+        title: "CSE 1201 DS Mondol Sir Class 12",
+        link: "https://www.youtube.com/embed/D_mg0YEEY4c",
+    },
+    {
+        id: 13,
+        title: "CSE 1201 DS Mondol Sir Class 13",
+        link: "https://www.youtube.com/embed/A6X_e_tR96I",
     },
 
 ];
-
-const sommenu = [
+const rtmenu = [
     {
         id: 1,
-        title: "Tanveer Sir Class 1",
-        link: "https://youtu.be/d37xEgeGOtc",
+        title: "CSE 1201 DS RT Sir Class 1",
+        link: "https://www.youtube.com/embed/IX_hfW5vffI",
     },
     {
         id: 2,
-        title: "Tanveer Sir Class 2",
-        link: "https://youtu.be/czad_4YaG7s",
+        title: "CSE 1201 DS RT Sir Class 2",
+        link: "https://www.youtube.com/embed/c30sCkSG9lo",
     },
     {
         id: 3,
-        title: "Tanveer Sir Class 3",
-        link: "https://youtu.be/hvEPeaJ9Uzg",
+        title: "CSE 1201 DS RT Sir Class 3",
+        link: "https://www.youtube.com/embed/8hgx7qQm6UM",
     },
     {
         id: 4,
-        title: "Tanveer Sir Class 4",
-        link: "https://youtu.be/bsz0PuUIyVA",
+        title: "CSE 1201 DS RT Sir Class 4",
+        link: "https://www.youtube.com/embed/rBaWoKr7jrk",
     },
     {
         id: 5,
-        title: "Tanveer Sir Class 5",
-        link: "https://youtu.be/X86bHe5XwHM",
-    },
-
-];
-
-const apmenu = [
-    {
-        id: 1,
-        title: "Tanveer Sir Class 1",
-        link: "https://youtu.be/K6bo5Ue1Du0",
-    },
-    {
-        id: 2,
-        title: "Tanveer Sir Class 2",
-        link: "https://youtu.be/zrTC2ZmPIXc",
-    },
-    {
-        id: 3,
-        title: "Tanveer Sir Class 3",
-        link: "https://youtu.be/VVnE_XqmOtg",
-    },
-    {
-        id: 4,
-        title: "Tanveer Sir Class 4",
-        link: "https://youtu.be/T9y12my8Tdk",
-    },
-    {
-        id: 5,
-        title: "Tanveer Sir Class 5",
-        link: "https://youtu.be/JR9mKjBUg_U",
+        title: "LAB CSE 1202 DS RT Sir Class 5",
+        link: "https://www.youtube.com/embed/U31ePpvRn3s",
     },
     {
         id: 6,
-        title: "Tanveer Sir Class 6",
-        link: "https://youtu.be/EpxEN0NMT70",
+        title: "CSE 1201 DS RT Sir Class 6",
+        link: "https://www.youtube.com/embed/EUaMoH-lPz4",
+    },
+    {
+        id: 7,
+        title: "CSE 1201 DS RT Sir Class 7",
+        link: "https://www.youtube.com/embed/5BIeEKHaZKQ",
+    },
+    {
+        id: 8,
+        title: "LAB CSE 1202 DS RT Sir Class 8",
+        link: "https://www.youtube.com/embed/AG8ylmoOke0",
+    },
+    {
+        id: 9,
+        title: "CSE 1201 DS RT Sir Class 9",
+        link: "https://www.youtube.com/embed/dr4tnPBkk4U",
+    },
+    {
+        id: 10,
+        title: "LAB CSE 1202 DS RT Sir Class 10",
+        link: "https://www.youtube.com/embed/8ZG_IUhlN2U",
+    },
+    {
+        id: 11,
+        title: "CSE 1201 DS RT Sir Class 11",
+        link: "https://www.youtube.com/embed/CFwFq3wzd-0",
+    },
+    {
+        id: 12,
+        title: "CSE 1201 DS RT Sir Class 12",
+        link: "https://www.youtube.com/embed/3qU0TpJZvak",
+    },
+    {
+        id: 13,
+        title: "LAB CSE 1202 DS RT Sir Class 13",
+        link: "https://www.youtube.com/embed/jYmKMG4hZeQ",
+    },
+    {
+        id: 14,
+        title: "CSE 1201 DS RT Sir Class 13",
+        link: "https://www.youtube.com/embed/tObKkn2Cgc",
     },
 
 ];
 
-const waomenu = [{
-    id: 1,
-    title: "Tanveer Sir Class 1",
-    link: "https://youtu.be/tGXmeE01FAc",
-}
+console.log("listening..");
 
-];
+///*
+
+const ds = document.querySelector(".mondol-sir");
+const rt = document.querySelector(".rt-sir");
 
 
-const sectionSOM = document.querySelector(".som-video-list");
-const sectionAP = document.querySelector(".ap-video-list");
-const sectionWAO = document.querySelector(".wao-video-list");
-const sectionPO = document.querySelector(".po-video-list");
-const go = document.querySelector(".video-name");
+const go = document.querySelector(".heading-cng");
+const videoload = document.querySelector(".load-video");
 
-function SOMvideoplaylist() {
-    let displayMenu = sommenu.map(function (item) {
+function DSvideoplaylist() {
+    let displayMenu = dsmenu.map(function (item) {
         //console.log(item);
 
-        return `<li><button id="${item.id}" class="som-class-video listen">${item.title}</button></li> `;
+        return `<li><button id="${item.id}" class="ds-class-video" >${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
     //console.log(displayMenu);
-    sectionSOM.innerHTML = displayMenu;
+    ds.innerHTML = displayMenu;
 }
-
-function APvideoplaylist() {
-    let displayMenu = apmenu.map(function (item) {
+function RTvideoplaylist() {
+    let displayMenu = rtmenu.map(function (item) {
         //console.log(item);
 
-        return `<li><button  id="${item.id}" class="ap-class-video  listen">${item.title}</button></li> `;
+        return `<li><button  id="${item.id}"  class="rt-class-video" >${item.title}</button></li> `;
     });
     displayMenu = displayMenu.join("");
     //console.log(displayMenu);
-    sectionAP.innerHTML = displayMenu;
-}
-
-function WAOvideoplaylist() {
-    let displayMenu = waomenu.map(function (item) {
-        //console.log(item);
-
-        return `<li><button  id="${item.id}" class="wao-class-video  listen">${item.title}</button></li> `;
-    });
-    displayMenu = displayMenu.join("");
-    //console.log(displayMenu);
-    sectionWAO.innerHTML = displayMenu;
-}
-
-function POvideoplaylist() {
-    let displayMenu = pomenu.map(function (item) {
-        //console.log(item);
-
-        return `<li><button  id="${item.id}" class="po-class-video  listen">${item.title}</button></li> `;
-    });
-    displayMenu = displayMenu.join("");
-    //console.log(displayMenu);
-    sectionPO.innerHTML = displayMenu;
+    rt.innerHTML = displayMenu;
 }
 
 
-//const sectionCenter = document.querySelector(#videosection);
 
 window.addEventListener("DOMContentLoaded", function () {
-    SOMvideoplaylist();
-    APvideoplaylist();
-    WAOvideoplaylist();
-    POvideoplaylist();
+    DSvideoplaylist();
+    RTvideoplaylist();
 
-    const videolink = document.querySelectorAll(".som-class-video");
-    //console.log(videolink);
-    videolink.forEach(function (btn) {
+    const videolink1 = document.querySelectorAll(".ds-class-video");
+    const videolink2 = document.querySelectorAll(".rt-class-video");
+    videolink1.forEach(function (btn) {
         btn.addEventListener("click", function (e) {
             let id = parseInt(e.currentTarget.id); id = id - 1; // id = mane koto no element er doc pass lgbe
-            const a = sommenu[id];
-            const objA = Object.entries(a);
-            console.log(objA[1]);
 
+            go.innerHTML = dsmenu[id].title;
+            videoload.setAttribute("src", `${dsmenu[id].link}`);
 
-            let displayMenu = objA.map(function (item) {
-                return `<h1>${item[1]}</h1>
-                <ul class="nav__links">
-                    <li><button>Previous</button></li>
-                    <li><button>Next</button></li>
+        });
+    });
 
-                </ul>`;
-            });
-            displayMenu = displayMenu.join("");
-            go.innerHTML = displayMenu;
+    videolink2.forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+            let id = parseInt(e.currentTarget.id); id = id - 1; // id = mane koto no element er doc pass lgbe
 
-
-
+            go.innerHTML = rtmenu[id].title;
+            videoload.setAttribute("src", `${rtmenu[id].link}`);
 
         });
     });
@@ -213,10 +203,10 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
+//*/
 
 
 
-// traversing the dom
 const plusbtns = document.querySelectorAll(".plus");
 plusbtns.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
